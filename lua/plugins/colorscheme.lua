@@ -41,10 +41,25 @@ return {
       },
     },
   },
+
+  {
+    "folke/tokyonight.nvim",
+
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
+
+  { "embark-theme/vim", as = "embark" },
+  --  set colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "tokyonight-moon",
     },
   },
 }

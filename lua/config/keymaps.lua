@@ -16,3 +16,5 @@ local opts = { silent = true, remap = true }
 
 vim.keymap.set("n", "<leader>/", "gcc", opts)
 vim.keymap.set("x", "<leader>/", "gc", opts)
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
